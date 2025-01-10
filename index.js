@@ -38,3 +38,10 @@ class Person {
     console.log("Hello, my name is ${this.name}");
   }
 }
+
+class Animal {
+  constructor(type, behaviour) {
+    this.type = type;
+    this.behaviour = behaviour;
+  }
+}
